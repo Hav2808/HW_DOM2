@@ -1,4 +1,5 @@
 
+[![Build status](https://ci.appveyor.com/api/projects/status/24fiftb6qktij4p3?svg=true)](https://ci.appveyor.com/project/Hav2808/hw-dom2)
 # Домашнее задание к занятию "2. DOM"
 
 Правила сдачи задания:
