@@ -13,7 +13,7 @@ export default class GamePlay {
       if (event.target.classList.contains('goblin') && !event.target.classList.contains('hit')) {
         this.hitCount++;
         event.target.classList.add('hit'); // Добавляем класс "hit" к ударенному гоблину
-        count.textContent = this.hitCount; // Обновляем отображение счетчика попаданий
+        this.count.textContent = this.hitCount; // Обновляем отображение счетчика попаданий
       }
     });
   }
