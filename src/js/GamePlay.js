@@ -5,6 +5,7 @@ export default class GamePlay {
     this.board = null;
     this.position = 0;
     this.hitCount = 0;
+    this.count = document.getElementById('count');
   }
   // Добавляем функцию для обработки попаданий при клике на гоблина
   handleHit() {
